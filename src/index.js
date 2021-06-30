@@ -50,3 +50,9 @@ const promptUser = [
     }
 ]
 
+function init() {
+    inquirer.prompt(promptUser)
+
+}
+
+init();
